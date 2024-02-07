@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+body{
+    background-image: url('https://i.stack.imgur.com/kx8MT.gif'); 
+    background-size: cover;
+    }
+.container {
+    text-align: center;
+}
+
+#heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.btn {
+    display: inline-block; /* inline block means in same line as well as having properties of block means you could change the height , width, padding etc.*/ 
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#yes-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#no-btn {
+    background-color: #FF5733;
+    color: white;
+    position: absolute;
+}
+
